@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Analizer</title>
+    <link rel="stylesheet" href="style/style.css">
+   
+</head>
+<body>
+    <h1> NUMBER ANALYZER </h1>
+    <main> Add numbers between 1 and 100: 
+    <label for = "num"> </label>
+    <input type="number" id="num" placeholder="Numero">
+    <button id="add">Add Number</button>
+    <label for="list"></label>
+    <select id="list" type="number" name="list" size="5"></select>
+    <button id="finalizar" onclick="finalizar()"> Check Numbers </button>
+    <div id="container"></div>    
+    <div id="cad"></div> <!--Ao todos temos x números cadastrados--> 
+    <div id="maval"></div>  <!--Maior valor informado-->
+    <div id="meval"></div> <!--Menor valor informado-->
+    <div type="number" id="sval"></div>   <!--soma dos valores-->
+    <div id="medval"></div> <!--media dos valores-->
+    </main>
+    
+<script src="script/script.js"></script>
+<footer> <strong>@ André Santos</strong></footer>
+</body>
+</html>
